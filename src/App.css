@@ -1,0 +1,53 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+
+.css-1633um2-MuiPaper-root {
+  height: 280px;
+  padding: 0 !important;
+}
+
+
+.section-heading {
+  text-align: center;
+  margin-top: 0;
+}
+
+
+.tab-view {
+  align-self: center;
+  display: flex;
+   width: 25%;
+    box-sizing: border-box;
+    color:#ffffff;
+}
+
+.header-login {
+  align-self: center;
+   display: flex;
+    width: 25%;
+     box-sizing: border-box;
+      justify-content: space-between;
+       color:#ffffff;
+}
+
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: #ffffff !important;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.footer-link{
+cursor: pointer;
+padding-top: 5px;
+font-size: 13px !important;
+}
